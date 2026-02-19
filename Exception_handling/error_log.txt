@@ -1,0 +1,8 @@
+2026-02-27 18:22:04,046 - ERROR - InvalidEmailError occurred
+Traceback (most recent call last):
+  File "C:\Users\Agalya\OneDrive\Documents\Python\Exception_handling\exp57.py", line 18, in <module>
+    validate_email("invalidemail.com")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Agalya\OneDrive\Documents\Python\Exception_handling\exp57.py", line 14, in validate_email
+    raise InvalidEmailError("Email must contain '@' symbol.")
+InvalidEmailError: Email must contain '@' symbol.
